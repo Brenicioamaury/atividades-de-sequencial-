@@ -1,0 +1,175 @@
+echo "# atividades-de-sequencial-" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Brenicioamaury/atividades -de-sequencial-.git
+ git push -u origem principal
+0p.
+Aluno: Brenício Amaury
+RA:13523114567
+Modalidade: live 
+1-Faça um Programa que mostre a mensagem "Alo mundo" na tela.Início   escreva ("Olá mundo!");
+
+Fim2- Faça um Programa que peça um número e então mostre a mensagem  O número informado foi[número].Início   real Num;   Imprima: ( “Digite um número”);   Leia:(Num);   Imprima:( “\n O número informado foi: “, Num);
+  
+Fim3- Faça um Programa que peça dois números e imprima a somaInício   Real: a, b, soma;   Imprima:("Digite o primeiro número: ");   leia:(a);   imprima:("Digite o segundo número: ");   leia:(b);   soma = a + b ;  imprima ("A soma dos números é igual a: ", soma);
+
+Fim4- Faça um Programa que peça as 4 notas bimestrais e mostre a média.Início  Constante: Num_not = 4;   Real:P1, P2, P3, P4, Media;   Imprima:(“Insira a nota da P1: “);  Leia:(P1);   Imprima:(“Insira a nota da P2: “);
+
+# 5 Faça um Programa que converta metros para centímetros. 
+ metros = float(input("Digite a quantidade de metros: ")) 
+ centimetros = metros * 100 
+  
+ print(metros, "metros é igual a ", centimetros, "centimetros")
+#6 Faça um Programa que peça o raio de um círculo, calcule e mostre sua área. 
+ raio = float(input("Digite o raio do circulo: ")) 
+ area = 3.14 * raio 
+  
+ print("A área do circlo é de: ", area)
+
+# 7 Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário. 
+ lados = float(input("Digite o tamanho dos lados do quadrado: ")) 
+ area = lados * lados 
+ dobro = area * 2 
+  
+ print("A área do quadrado é ", area, " e o dobro dela é ", dobro)
+# 8 Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês. 
+ quant_hora = float(input("Quanto você ganha por hora? R: ")) 
+ horas_mes = int(input("Quantas horas você trabalha no mês? R: ")) 
+  
+ salario = quant_hora * horas_mes 
+
+ print("O seu salário no final do mês será de R$", salario)
+# 9 Faça um Programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius. C = (5 * (F-32) / 9). 
+ fahrenheit = float(input("Quantidade de graus Fahrenheit: ")) 
+ celsius = (fahrenheit - 32) / 9 
+  
+ print(fahrenheit, " graus Fahrenheit são iguais a ", celsius, " graus celsius")
+
+# 10 Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit. 
+ celsius = float(input("Quantidade de graus Celsius: ")) 
+ fahrenheit = (celsius * 1.8) + 32 
+  
+ print(celsius, " graus Celsius são iguais a ", fahrenheit, " graus Fahrenheit")
+# 11 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: 
+ # o produto do dobro do primeiro com metade do segundo . 
+ # a soma do triplo do primeiro com o terceiro. 
+ # o terceiro elevado ao cubo. 
+  
+ inteiro1 = int(input("Digite um número inteiro: ")) 
+ inteiro2 = int(input("Digite outro número inteiro: ")) 
+ real = float(input("Digite um número real")) 
+  
+ a = (inteiro1 * 2) + (inteiro2 / 2) 
+ b = (inteiro1 * 3) + real 
+ c = real ** 3 
+  
+ print("a : ", a, "\nb : ", b, "\nc : ", c)
+# 12 Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58 
+ altura = float(input("Digite a altura: ")) 
+ peso_ideal = (72.7 * altura) - 58 
+  
+ print("Peso ideal: ", peso_ideal)
+
+#13 Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas: 
+ #Para homens: (72.7*h) - 58 
+ #Para mulheres: (62.1*h) - 44.7 
+  
+ altura = float(input("Digite a altura: ")) 
+ homem = (72.7 * altura) - 58 
+ mulher = (62.1 * altura) - 44.7 
+#14 João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas. 
+ peso = int(input("Digite o peso dos peixes: ")) 
+ execesso = peso - 50 
+ multa = execesso * 4 
+  
+ if execesso < 1: print("João não terá que pagar multa") 
+ else: print("A multa que joão terá que pagar será de: ", multa)
+  
+ print("Homem: ", homem, "\nMulher: ", mulher)
+#João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas. 
+ peso = int(input("Digite o peso dos peixes: ")) 
+ execesso = peso - 50 
+ multa = execesso * 4 
+  
+ if execesso < 1: print("João não terá que pagar multa") 
+ else: print("A multa que joão terá que pagar será de: ", multa)
+
+#15Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê: 
+  
+ #salário bruto. 
+ #quanto pagou ao INSS. 
+ #quanto pagou ao sindicato. 
+ #o salário líquido. 
+ #calcule os descontos e o salário líquido, conforme a tabela abaixo: 
+  
+ #Salário Bruto : R$ 
+ #IR (11%) : R$ 
+ #INSS (8%) : R$ 
+ #Sindicato ( 5%) : R$ 
+ #Salário Liquido : R$ 
+ #Obs.: Salário Bruto - Descontos = Salário Líquido. 
+  
+ quant_hora = float(input("Quanto você ganha por hora? R: ")) 
+ horas_mes = int(input("Quantas horas você trabalha no mês? R: ")) 
+ salario = quant_hora * horas_mes 
+  
+ ir = salario * 0.11 
+ inss = salario * 0.08 
+ sindicato = salario * 0.05 
+ salario_liquido = salario - ir - inss - sindicato 
+  
+ print("Salário bruto: ", salario, "\nIR: ", ir, "\nINSS: ", inss, "\nSindicato ", sindicato, "\nSalário Liquido: ", salario_liquido)
+#16Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total. 
+ from math import ceil 
+ tamanho = float(input('Digite o tamanho: ')) 
+ litros = tamanho / 3 
+ lata = ceil(litros / 18) 
+ preco = lata * 80 
+  
+ print('qnt latas para comprar: ', lata) 
+ print('Preço: ', preco)
+#17Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00. 
+ # Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações: 
+ # comprar apenas latas de 18 litros; 
+ # comprar apenas galões de 3,6 litros; 
+ # misturar latas e galões, de forma que o preço seja o menor. Acrescente 10% de folga e sempre arredonde os valores para cima, isto é, considere latas cheias. 
+  
+ from math import ceil, floor 
+ tamanho = float(input("Tamanho da área a ser pintada: ")) 
+ litro = tamanho / 6 
+  
+ latas = litro / 18 
+ galoes = litro / 3.6 
+ latas_arredondado = ceil(latas) 
+ galoes_arredondado = ceil(galoes) 
+  
+ latas_baixo = floor(latas) 
+ latas_subtrair = latas_baixo * 18 
+ resto = litro - latas_subtrair 
+ galoes_resto = resto / 3.6 
+ galoes_resto_arredondado = ceil(galoes_resto) 
+ preco_galao_resto = galoes_resto_arredondado * 25 
+ preco_lata_baixo = latas_baixo * 80 
+ preco_total_misturado = preco_lata_baixo + preco_galao_resto 
+  
+ preco_lata = latas_arredondado * 80 
+ preco_galao = galoes_arredondado * 25 
+  
+  
+ print("1: Latas: ", latas_arredondado, " / Preco: ", preco_lata, "\n") 
+ print("2: Galão: ", galoes_arredondado, " / Preco: ", preco_galao, "\n") 
+ print("3: Latas: ", latas_baixo, " / Galões: ", galoes_resto_arredondado, " / Preco: ", preco_total_misturado)
+#18Faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de Internet (em Mbps), calcule e informe o tempo aproximado de download do arquivo usando este link (em minutos). 
+ from math import ceil 
+  
+ tamanho = float(input("Digite o tamanho do arquivo: ")) 
+ velocidade = float(input("Digite a velocidade da internet: ")) 
+  
+ tempo = tamanho / velocidade 
+ minutos = ceil(tempo) / 60) 
+  
+ print("O arquivo levará ", minutos, "minutos para ficar pronto")
+
+
